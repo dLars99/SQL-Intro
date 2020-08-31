@@ -1,4 +1,5 @@
-﻿SELECT DISTINCT a.ArtistName
+﻿select DISTINCT a.ArtistName
 FROM Album b
 	LEFT JOIN Artist a on b.ArtistId = a.Id
-WHERE b.GenreId = 4 or b.GenreId = 2;
+	LEFT JOIN Genre g on b.GenreId = g.Id
+WHERE g.Label = 'Jazz' or g.Label = 'Rock'
