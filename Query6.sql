@@ -1,0 +1,1 @@
+﻿select Title from Album;

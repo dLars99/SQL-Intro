@@ -1,0 +1,1 @@
+﻿INSERT INTO Artist (ArtistName, YearEstablished) VALUES ('Wyld Stallyns', 1988);

@@ -1,0 +1,1 @@
+﻿INSERT INTO Album (Title, ReleaseDate, AlbumLength, Label, ArtistId, GenreId) VALUES ('Station', '06/09/1991', 1542, 'Capitol Records', 28, 2);
